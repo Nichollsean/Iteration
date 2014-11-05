@@ -1,12 +1,13 @@
 #Sean Nicholls
-#iteration REV EX3
-counter = 1
-total = 0
-amount=int(input("How many numbers would you like to average: "))
-for count in range(amount):
-    num=int(input("Enter number {0} for averaging: ".format(counter)))
-    counter = counter + 1
-    total = num + total
-    average = total / amount
-print ("The average is {0}".format(total))
+#iteration rev ex3
 
+total = 0 
+count = 0
+averager = int(input("How many numbers am I going to average: "))
+while count in range(averager):
+    count = (count+1)
+    number = int(input("Please enter number {0} in the sequence: ".format(count)))
+    total = (total+number)
+finaltotal = total/averager
+print(finaltotal)
+    
